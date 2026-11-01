@@ -14,7 +14,7 @@ const daniel = {
   base: "Medellín, Colombia · Systems & Computer Engineering @ UPB",
 
   shipping: {
-    movo: "born in a real body shop that runs on it: 34 users, ~80 cars/month",
+    movo: "early-stage SaaS for body shops, live in 2; an LLM reads insurer PDFs",
     MIND: "digital transformation consulting: software, growth, BI & analytics",
     EternalGrowth: "digital transformation for SMBs: software, automation, BI, ads",
   },
@@ -42,6 +42,7 @@ const daniel = {
 | **Emulation** | [gbc-emulator](https://github.com/daniellelooo/gbc-emulator) | A full Game Boy Color in TypeScript that runs in the browser and passes the suites emulator authors use: Blargg cpu_instrs 11/11, 66 Mooneye tests, cgb-acid2 pixel for pixel. |
 | **Games** | [75-centavos](https://github.com/daniellelooo/75-centavos) | Berkeley, 1986: the lab's books are off by 75 cents. You solve the case in 30 missions by writing JavaScript that runs sandboxed against test cases. [Play it](https://75-centavos.vercel.app) |
 | **macOS** | [faro](https://github.com/daniellelooo/faro) | Dictate anywhere on the Mac with Whisper running locally and an LLM cleaning the text; record meetings and get summaries; a dynamic island in the notch. 133 tests. |
+| **Data & ML** | [calidad-mineria-datos](https://github.com/daniellelooo/calidad-mineria-datos) | Data-quality audit of a public dataset, then Decision Tree, KNN, MLP, SVM and Random Forest compared on a 95/5 imbalanced target; tuned to F1 0.80 and shipped in a desktop app. |
 | **Systems** | [dfs-upb](https://github.com/daniellelooo/dfs-upb) | An HDFS-style distributed file system in Java: NameNode, DataNodes and a CLI. |
 
 ### Tech stack
