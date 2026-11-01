@@ -13,14 +13,33 @@
 const daniel = {
   based: "Medellín, Colombia",
   studying: "Systems & Computer Engineering @ UPB (8th semester)",
+
   building: {
-    movo: "SaaS for auto body shops; an LLM reads insurance estimates",
+    movo: "multi-tenant SaaS for auto body shops; an LLM turns insurer PDFs into billing",
     MIND: "digital transformation consulting: software, growth 360, BI & analytics",
     EternalGrowth: "digital transformation for SMBs: software, automation, BI, ads",
   },
-  howIWork: "I write the spec, steer the agents, review every output",
-  into: ["LLM evaluation", "LLM-as-a-judge", "AI agents", "dev tools"],
-  sideQuests: ["Game Boy Color emulator", "a game that teaches JavaScript"],
+
+  howIWork: [
+    "turn client meetings and WhatsApp voice notes into specs with acceptance criteria",
+    "run a Claude Code agent team: planner, developer, tester, security reviewer",
+    "nothing ships until CI passes and it works in a real browser, in production",
+    "review every agent output like a demanding client, and push back when it's wrong",
+  ],
+
+  aiWork: [
+    "LLM-as-a-judge: rubric scoring, blind answers, position-bias checks",
+    "LLMs in production: PDF extraction, dictation cleanup, meeting summaries",
+    "agents with MCP servers, hooks and skills; local models with Ollama and MLX",
+    "classic ML: Random Forest, decision trees, KNN, SVM, K-Means, GridSearchCV",
+  ],
+
+  sideQuests: {
+    gbcEmulator: "Game Boy Color from scratch in TypeScript; passes Blargg and acid2",
+    centavos75: "narrative coding game: sandboxed JS runtime, accounts, cloud saves",
+    faro: "native macOS app: local Whisper dictation and a dynamic island in the notch",
+    modelArena: "a lab to test which LLMs (and which judges) you can actually trust",
+  },
 };
 ```
 
@@ -30,8 +49,8 @@ const daniel = {
 |---|---|---|
 | **AI eval** | [arena-modelos](https://github.com/daniellelooo/arena-modelos) | Blind judge with a rubric, runs every comparison in both orders to measure position bias, Bradley-Terry/Elo ratings |
 | **Emulation** | [gbc-emulator](https://github.com/daniellelooo/gbc-emulator) | Written from scratch; passes Blargg cpu_instrs 11/11, 66 Mooneye tests and cgb-acid2 pixel for pixel |
-| **EdTech** | [75-centavos](https://github.com/daniellelooo/75-centavos) | Pixel-art detective game that teaches JavaScript. [Play it](https://75-centavos.vercel.app) |
-| **macOS** | [faro](https://github.com/daniellelooo/faro) | Local Whisper dictation, meeting summaries and a dynamic island in the notch |
+| **Games** | [75-centavos](https://github.com/daniellelooo/75-centavos) | Pixel-art detective story (Berkeley, 1986) where you solve the case by writing real JavaScript: 30 missions, player code runs in a sandboxed Web Worker against test cases, art and sound generated in code, accounts and cloud saves. [Play it](https://75-centavos.vercel.app) |
+| **macOS** | [faro](https://github.com/daniellelooo/faro) | Native Swift app: system-wide dictation with local Whisper plus LLM cleanup, meeting recording with summaries, and a dynamic island in the notch for music and Claude Code usage |
 | **Systems** | [dfs-upb](https://github.com/daniellelooo/dfs-upb) | Minimal HDFS-style distributed file system in Java |
 
 ### Tech stack
