@@ -15,8 +15,8 @@ const daniel = {
   studying: "Systems & Computer Engineering @ UPB (8th semester)",
   building: {
     movo: "SaaS for auto body shops; an LLM reads insurance estimates",
-    MIND: "AI agent team with human review for every deliverable",
-    EternalGrowth: "web systems for businesses still running on paper",
+    MIND: "digital transformation consulting: software, growth 360, BI & analytics",
+    EternalGrowth: "digital transformation for SMBs: software, automation, BI, ads",
   },
   howIWork: "I write the spec, steer the agents, review every output",
   into: ["LLM evaluation", "LLM-as-a-judge", "AI agents", "dev tools"],
