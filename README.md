@@ -14,7 +14,7 @@ const daniel = {
   base: "Medellín, Colombia · Systems & Computer Engineering @ UPB",
 
   shipping: {
-    movo: "runs a real auto body shop: 34 users, ~80 cars a month, its payroll",
+    movo: "born in a real body shop that runs on it: 34 users, ~80 cars/month",
     MIND: "digital transformation consulting: software, growth, BI & analytics",
     EternalGrowth: "digital transformation for SMBs: software, automation, BI, ads",
   },
