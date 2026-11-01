@@ -11,47 +11,38 @@
 
 ```js
 const daniel = {
-  based: "Medellín, Colombia",
-  studying: "Systems & Computer Engineering @ UPB (8th semester)",
+  base: "Medellín, Colombia · Systems & Computer Engineering @ UPB",
 
-  building: {
-    movo: "multi-tenant SaaS for auto body shops; an LLM turns insurer PDFs into billing",
-    MIND: "digital transformation consulting: software, growth 360, BI & analytics",
+  shipping: {
+    movo: "runs a real auto body shop: 34 users, ~80 cars a month, its payroll",
+    MIND: "digital transformation consulting: software, growth, BI & analytics",
     EternalGrowth: "digital transformation for SMBs: software, automation, BI, ads",
   },
 
-  howIWork: [
-    "turn client meetings and WhatsApp voice notes into specs with acceptance criteria",
-    "run a Claude Code agent team: planner, developer, tester, security reviewer",
-    "nothing ships until CI passes and it works in a real browser, in production",
-    "review every agent output like a demanding client, and push back when it's wrong",
+  workflow: "spec → AI agent team (plan, build, test, security) → verified in prod",
+
+  evaluatingAI: [
+    "built a blind LLM-as-a-judge that measures its own position bias",
+    "caught a model citing a paper that doesn't exist",
   ],
 
-  aiWork: [
-    "LLM-as-a-judge: rubric scoring, blind answers, position-bias checks",
-    "LLMs in production: PDF extraction, dictation cleanup, meeting summaries",
-    "agents with MCP servers, hooks and skills; local models with Ollama and MLX",
-    "classic ML: Random Forest, decision trees, KNN, SVM, K-Means, GridSearchCV",
-  ],
-
-  sideQuests: {
-    gbcEmulator: "Game Boy Color from scratch in TypeScript; passes Blargg and acid2",
-    centavos75: "narrative coding game: sandboxed JS runtime, accounts, cloud saves",
-    faro: "native macOS app: local Whisper dictation and a dynamic island in the notch",
-    modelArena: "a lab to test which LLMs (and which judges) you can actually trust",
+  forFun: {
+    gbcEmulator: "a Game Boy Color from scratch, accurate to the pixel",
+    centavos75: "a detective story you solve by writing real JavaScript",
+    faro: "my Mac's dictation, meeting notes and notch island, all local",
   },
 };
 ```
 
 ### Featured projects
 
-| | Project | Why it's interesting |
+| | Project | What it proves |
 |---|---|---|
-| **AI eval** | [arena-modelos](https://github.com/daniellelooo/arena-modelos) | Blind judge with a rubric, runs every comparison in both orders to measure position bias, Bradley-Terry/Elo ratings |
-| **Emulation** | [gbc-emulator](https://github.com/daniellelooo/gbc-emulator) | Written from scratch; passes Blargg cpu_instrs 11/11, 66 Mooneye tests and cgb-acid2 pixel for pixel |
-| **Games** | [75-centavos](https://github.com/daniellelooo/75-centavos) | Pixel-art detective story (Berkeley, 1986) where you solve the case by writing real JavaScript: 30 missions, player code runs in a sandboxed Web Worker against test cases, art and sound generated in code, accounts and cloud saves. [Play it](https://75-centavos.vercel.app) |
-| **macOS** | [faro](https://github.com/daniellelooo/faro) | Native Swift app: system-wide dictation with local Whisper plus LLM cleanup, meeting recording with summaries, and a dynamic island in the notch for music and Claude Code usage |
-| **Systems** | [dfs-upb](https://github.com/daniellelooo/dfs-upb) | Minimal HDFS-style distributed file system in Java |
+| **AI eval** | [arena-modelos](https://github.com/daniellelooo/arena-modelos) | You can't trust a judge you haven't tested. Answers are scored blind on a 5-criteria rubric and every comparison runs twice with the order swapped: the judge kept its verdict 91% of the time, and the run caught a model inventing a source. |
+| **Emulation** | [gbc-emulator](https://github.com/daniellelooo/gbc-emulator) | A full Game Boy Color in TypeScript that runs in the browser and passes the suites emulator authors use: Blargg cpu_instrs 11/11, 66 Mooneye tests, cgb-acid2 pixel for pixel. |
+| **Games** | [75-centavos](https://github.com/daniellelooo/75-centavos) | Berkeley, 1986: the lab's books are off by 75 cents. You solve the case in 30 missions by writing JavaScript that runs sandboxed against test cases. [Play it](https://75-centavos.vercel.app) |
+| **macOS** | [faro](https://github.com/daniellelooo/faro) | Dictate anywhere on the Mac with Whisper running locally and an LLM cleaning the text; record meetings and get summaries; a dynamic island in the notch. 133 tests. |
+| **Systems** | [dfs-upb](https://github.com/daniellelooo/dfs-upb) | An HDFS-style distributed file system in Java: NameNode, DataNodes and a CLI. |
 
 ### Tech stack
 
