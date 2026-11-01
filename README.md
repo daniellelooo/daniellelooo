@@ -23,4 +23,4 @@ TypeScript · Next.js · React · Supabase / PostgreSQL · Python · pandas · s
 
 #### Contact
 
-[LinkedIn](https://www.linkedin.com/in/LINKEDIN_SLUG) · daniellelo063@gmail.com · [eternalgrowth.xyz](https://www.eternalgrowth.xyz)
+[LinkedIn](https://www.linkedin.com/in/daniellelooo) · daniellelo063@gmail.com · [eternalgrowth.xyz](https://www.eternalgrowth.xyz)
